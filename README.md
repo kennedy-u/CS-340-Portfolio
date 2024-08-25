@@ -86,7 +86,7 @@ Computer scientists play a crucial role in problem-solving by developing softwar
 
 [mongodb.com](https://www.mongodb.com)
 
-MongoDB is a NoSQL database that was used in this project. NoSQL compared to SQL databases, instead of having to define columns and rows, each record is stored as document containing all of its own properties and values. This helps in creating and interacting with data in a dashboards using a NoSQL database. 
+MongoDB is a NoSQL database that was used in this project. NoSQL compared to SQL databases; instead of having to define columns and rows, each record is stored as a document containing all of its own properties and values. This helps in creating and interacting with data in a dashboard.
 
 #### Python
 
