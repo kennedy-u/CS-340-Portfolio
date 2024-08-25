@@ -1,13 +1,13 @@
 # CS 340 Portfolio
 ## About 
 
-### Project technical traget
-The aim of this project is to create a web-based dashboard that displays data visualizations and allows for interactive exploration of a dataset. The dashboard is built using the Dash framework in Python, and the data is stored in a MongoDB database. 
+### Technical Target
+The aim of this project is to create a web-based dashboard with data visualization and allows for interactive exploration of the dataset used. The dashboard is built using the Dash framework in Python, and the data is stored in a MongoDB database. 
 
 ### Animal Shelter Project Motivation
-The main motivation of this project is to create an interactive interface for project user to interact with the animal collection in the AAC database. The user will read and create documents in the database. Creating, Reading, Updating, and deleting objects/files are essential for interacting with databases. Following the project motivation, it is aslo important to automate accessibility and queries within the Mongo Database using Python mongo driver (Pymongo). 
+The main motivation of this project is to create an interactive interface for project user to interact with the animal collection in the AAC database. The user will read and create documents in the database. Creating, Reading, Updating, and deleting objects/files are essential for interacting with databases. Following the project motivation, it is aslo important to automate accessibility and queries within the Mongo Database using Python Mongo driver (Pymongo). 
 
-### Getting started
+### Getting Started
 If you wish to run the code on a local machine follow these steps:
 Prerequisite:
 - Get a copy/install MongoDB
@@ -21,7 +21,7 @@ Prerequisite:
     ```zsh
     mongoimport --port <PORT#> --db AAC --collection animals --type=csv --headerline  <PATH_TO_CSV>aac_shelter_outcomes.csv
     ```
-3. Launch the Mongo shell and create the admin and aacuser
+3. Launch Mongo shell and create the admin and aacuser accounts
 
     ```zsh
     mongosh
@@ -37,10 +37,6 @@ Prerequisite:
     ```python
     client = AnimalShelter (<USER>, <PASSWORD>, <PORT>, <AUTH_SRC>)
     ```
-
-## How to use the CRUD module
-####################################################
-####################################################
 
 ## Dashboard Functionality
 
@@ -65,3 +61,29 @@ As a computer scientist, my problem-solving approach begins by identifying the d
 ###### What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
 
 Computer scientists play a crucial role in problem-solving by developing software that processes data at speeds far beyond human capability, performs calculations with greater accuracy and precision, and creates technology that simplifies lives and enhances business operations. The significance of computer scientists and their work is evident, as computers have revolutionized the world. Without them, we wouldn’t have advanced 3D graphics in films, video games, or even the ability to quickly tally the number of employees across various companies in different states. Projects like this are vital to companies, enabling them to locate and retrieve information quickly and with minimal effort. For instance, this project helped Grazioso Salvare find the desired dog records based on specific age ranges and breeds, saving hours of manual research among 10,000 records. Moreover, the project is designed to be expandable, accommodating any future records, making it a one-time effort for Grazioso Salvare.
+
+## Tools Used
+
+### MongoDB
+
+[mongodb.com](https://www.mongodb.com)
+
+MongoDB is a NoSQL data that was used in this project. Instead of having to define columns and rows, each record is stored as document containing all of its own properties and values. This helps in creating and interacting with data in a dashboards. 
+
+### Python
+
+[python.org](https://www.python.org)
+
+Python was used as the main programming language for this project
+
+### PyMongo
+
+[pymongo.readthedocs.io](https://pymongo.readthedocs.io/en/stable/)
+
+PyMongo is the recommended driver for using Python to interact with MongoDB.
+
+### Dash Framework
+
+[plotly.com/dash](https://plotly.com/dash/)
+
+Dash is a Python framework that works excels at creating web-based dashboards to display data.
