@@ -59,10 +59,10 @@ Prerequisites:
 ## Dashboard Functionality
 
 #### All available filters!
-- Water Rescue: filter to display dogs that meet the rquirements for water rescue in the table
-- Mountain Rescue: filter to display dogs that meet the rquirements for mountain rescue in the table
-- Disaster Rescue: filter to display dogs that meet the rquirements for Disaster rescue in the table
-- Reset: filter that resets the database to display all data
+- _Water Rescue_: filter to display dogs that meet the rquirements for water rescue in the table
+- _Mountain Rescue_: filter to display dogs that meet the rquirements for mountain rescue in the table
+- _Disaster Rescue_: filter to display dogs that meet the rquirements for Disaster rescue in the table
+- _Reset_: filter that resets the database to display all data
 
 You can chose what to filter via the dropdown  menu provided
 ![Filter Data](docs/img/interactive_dash.png)
