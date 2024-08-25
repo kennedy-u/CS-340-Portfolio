@@ -1,4 +1,4 @@
-# this import allows to connect to our mongodb database
+# mongodb client (pymongo) is used to connect to the database
 from pymongo import MongoClient
 # query using an ObjectID
 from bson.objectid import ObjectId  
