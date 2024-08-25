@@ -8,7 +8,7 @@ The aim of this project is to create a web-based dashboard with data visualizati
 The main motivation of this project is to create an interactive interface for project user to interact with the animal collection in the AAC database. The user will read and create documents in the database. Creating, Reading, Updating, and deleting objects/files are essential for interacting with databases. Following the project motivation, it is aslo important to automate accessibility and queries within the Mongo Database using Python Mongo driver (Pymongo). 
 
 ### Getting Started
-If you wish to run the code on a local machine follow these steps:
+If you wish to run the code on a local machine follow these steps: <br>
 Prerequisite:
 - Get a copy/install MongoDB
 - Perform local system configuration and make sure mongodb is running...
