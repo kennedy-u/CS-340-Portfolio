@@ -109,4 +109,4 @@ PyMongo is the recommended driver for using Python to interact with MongoDB.
 
 [plotly.com/dash](https://plotly.com/dash/)
 
-Dash is a Python framework that works excels at creating web-based dashboards to display data.
+Dash is a Python framework for creating web-based dashboards to display data.
