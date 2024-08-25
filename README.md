@@ -6,7 +6,7 @@
 - [Getting Started](#getting-started)
 - [CRUD Module and CLI guide](#crud-module-and-cli-guide)
 - [Dashboard Functionality](#dashboard-functionality)
-- [Development Reflection](#development-reflection)
+- [Development Reflection](#development-reflection-compsci)
 - [Tools Used](#tools-used)
 
 ## About 
@@ -48,16 +48,22 @@ Prerequisites:
     client = AnimalShelter (<USER>, <PASSWORD>, <PORT>, <AUTH_SRC>)
     ```
 
-## CRUD Module and CLI guide
+### CRUD Module and CLI guide
 [Load Data, Use CRUD, and Test against the database and CRUD Module.](docs/Project_One_Readme.pdf)
+
+### Client-Side Authentication
+[Client Side Authentication](docs/5-2-Assignment_Client-Side-Authentication.pdf)
+
+### If you want to take it a step further into data aggregation, click here
+[Data Aggregation](docs/8-1_Data-Aggregation-Pipeline.pdf)
 
 ## Dashboard Functionality
 
-### All available filters!
+#### All available filters!
 You can chose what to filter via the dropdown  menu provided
 ![Filter Data](docs/img/interactive_dash.png)
 
-### Dashboard with geolocation and pie chart
+#### Dashboard with geolocation and pie chart
 Once you chose what dog data to filter, the charts will adjust accordingly!
 ![Filtered Data and Charts](docs/img/dashboard0.png)
 
