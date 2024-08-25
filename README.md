@@ -1,3 +1,4 @@
+# CS 340 Portfolio
 ## About 
 
 ### Project technical traget
@@ -37,19 +38,30 @@ Prerequisite:
     client = AnimalShelter (<USER>, <PASSWORD>, <PORT>, <AUTH_SRC>)
     ```
 
+## How to use the CRUD module
+####################################################
+####################################################
 
-# CS 340 Portfolio
+## Dashboard Functionality
+
+### All available filters!
+You can chose what to filter via the dropdown  menu provided
+![Filter Data](docs/img/interactive_dash.png)
+
+### Dashboard with geolocation and pie chart
+Once you chose what dog data to filter, the charts will adjust accordingly!
+![Filtered Data and Charts](docs/img/dashboard0.png)
 
 ## Development Reflection
 
 ###### How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 
-Maintaining a program can be achieved by making it modular and reusable, which allows for easy addition of functionality and keeping it current. In addition to modularity, writing comments that provide clear guidance on code functionality helps improve code readability. Adaptability is another crucial aspect, where modular code can be easily adapted to different incoming or outgoing data types, making it flexible and adjustable to meet different requirements. By following these practices, a programmer can build programs that are maintainable, readable, and adaptable.
+Maintaining a program can be facilitated by making it modular and reusable, which allows for easy addition of functionality and ensures it remains up-to-date. In addition to modularity, writing comments that clearly explain the code’s functionality significantly improves readability. Adaptability is another crucial aspect, as modular code can be easily adjusted to handle different incoming or outgoing data types, making it flexible and capable of meeting diverse requirements. By following these practices, a programmer can build programs that are maintainable, readable, and adaptable.
 
 ###### How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
 
-As a computer scientist, my problem-solving approach begins by identifying the desired outcome and selecting the necessary tools to achieve it. I prioritize building the foundational tools before proceeding with higher-level functions. This project presented a unique challenge as it was my first time working with databases. To tackle this task, I built the database, created the CRUD module, and used it to construct the interactive dashboard. Previously, I relied on arrays, vectors, and objects to store data, which proved to be inefficient for handling large amounts of data. This project provided an opportunity to expand my skillset and introduced me to valuable techniques, such as the CRUD module. I am already considering how to incorporate it into the SQL database I am building for my website project. Additionally, I recognize the importance of aggregation when working with vast amounts of data and limited search time.
+As a computer scientist, my problem-solving approach begins by identifying the desired outcome and selecting the appropriate tools to achieve it. I prioritize building foundational components before advancing to higher-level functions. This project posed a unique challenge as it was my first experience working with databases. To address this, I built the database, created the CRUD module, and used it to develop the interactive dashboard. This project provided an opportunity to expand my skillset and introduced me to valuable techniques, such as the CRUD module. I now understand the importance of data aggregation when working with large datasets and limited search time.
 
 ###### What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
 
-Computer scientists play a crucial role in problem-solving by developing software that processes data at a faster rate than human manual labor can achieve, making calculations that are more accurate and precise, and creating technology that simplifies people's lives and businesses. The importance of computer scientists and their work is clear since computers have revolutionized the world. Without computer scientists, we wouldn't have advanced 3D graphics films, video games, or even something as simple as quickly adding up the number of employees for various companies throughout states. Projects like this are vital to companies, as they can locate and retrieve information quickly and with minimal effort. For instance, this project helped Grazioso Salvare find the desired dog records with a specific age range and breed, saving them hours of manual research among the 10,000 records. This project is expandable, so it can accommodate any additional records added in the future, making it a one-time effort for Grazioso Salvare.
+Computer scientists play a crucial role in problem-solving by developing software that processes data at speeds far beyond human capability, performs calculations with greater accuracy and precision, and creates technology that simplifies lives and enhances business operations. The significance of computer scientists and their work is evident, as computers have revolutionized the world. Without them, we wouldn’t have advanced 3D graphics in films, video games, or even the ability to quickly tally the number of employees across various companies in different states. Projects like this are vital to companies, enabling them to locate and retrieve information quickly and with minimal effort. For instance, this project helped Grazioso Salvare find the desired dog records based on specific age ranges and breeds, saving hours of manual research among 10,000 records. Moreover, the project is designed to be expandable, accommodating any future records, making it a one-time effort for Grazioso Salvare.

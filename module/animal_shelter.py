@@ -14,11 +14,11 @@ class AnimalShelter(object):
         # access the MongoDB databases and collections.
         if password and username:
             self.client = MongoClient(
-                'mongodb://%s:%s@localhost:54632/AAC' % (username, password)
+                'mongodb://%s:%s@localhost:<port>/AAC' % (username, password)
             )
         else:
             self.client = MongoClient(
-                "mongodb://127.0.0.1:54632"
+                "mongodb://127.0.0.1:<port>"
             )
         self.database = self.client["AAC"]
 
