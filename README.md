@@ -1,7 +1,7 @@
 # CS 340 Portfolio
 - Code
-    - [Dashboard](../ProjectTwoDashboard.ipynb)
-    - [CRUD Module](../module/animal_shelter.py)
+    - [Dashboard](ProjectTwoDashboard.ipynb)
+    - [CRUD Module](module/animal_shelter.py)
 - [About](#about)
 - [Getting Started](#getting-started)
 - [CRUD Module and CLI guide](#crud-module-and-cli-guide)
