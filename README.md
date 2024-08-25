@@ -11,11 +11,10 @@
 
 ## About 
 
-### Technical Target
-The aim of this project is to create a web-based dashboard with data visualization and allows for interactive exploration of the dataset used. The dashboard is built using the Dash framework in Python, and the data is stored in a MongoDB database. 
+### Project arget and  Animal Shelter project motivation
+The aim of this project is to create a web-base dashboard with data visualization that allows for interactive exploration of the dataset used. The dashboard is built using the Dash framework in Python, and the data is stored in a MongoDB database. 
 
-### Animal Shelter Project Motivation
-The main motivation of this project is to create an interactive interface for project user to interact with the animal collection in the AAC database. The user will read and create documents in the database. Creating, Reading, Updating, and deleting objects/files are essential for interacting with databases. Following the project motivation, it is aslo important to automate accessibility and queries within the Mongo Database using Python Mongo driver (Pymongo). 
+The main motivation of the Animal Shelter project is to create an interactive interface for project user to interact with the animal collection in the AAC database. The user will read and create documents in the database. Creating, Reading, Updating, and deleting objects/files are essential for interacting with databases. Following the project motivation, it is aslo important when necessary to automate accessibility and queries within the Mongo Database using Python Mongo driver (Pymongo). 
 
 ### Getting Started
 If you wish to run the code on a local machine follow these steps: <br>
