@@ -1,4 +1,14 @@
 # CS 340 Portfolio
+- Code
+    - [Dashboard](../CS-340-Portfolio/ProjectTwoDashboard.ipynb)
+    - [CRUD Module](../CS-340-Portfolio/module/animal_shelter.py)
+- [About](#about)
+- [Getting Started](#getting-started)
+- [CRUD Module and CLI guide](#crud-module-and-cli-guide)
+- [Dashboard Functionality](#dashboard-functionality)
+- [Development Reflection](#development-reflection)
+- [Tools Used](#tools-used)
+
 ## About 
 
 ### Technical Target
@@ -9,7 +19,7 @@ The main motivation of this project is to create an interactive interface for pr
 
 ### Getting Started
 If you wish to run the code on a local machine follow these steps: <br>
-Prerequisite:
+Prerequisites:
 - Get a copy/install MongoDB
 - Perform local system configuration and make sure mongodb is running...
 1. Start the MongoDB service
@@ -21,7 +31,7 @@ Prerequisite:
     ```zsh
     mongoimport --port <PORT#> --db AAC --collection animals --type=csv --headerline  <PATH_TO_CSV>aac_shelter_outcomes.csv
     ```
-3. Launch Mongo shell and create the admin and aacuser accounts
+3. Launch Mongo shell and create the 'admin' and 'aacuser' accounts
 
     ```zsh
     mongosh
@@ -38,6 +48,9 @@ Prerequisite:
     client = AnimalShelter (<USER>, <PASSWORD>, <PORT>, <AUTH_SRC>)
     ```
 
+## CRUD Module and CLI guide
+[Load Data, Use CRUD, and Test against the database and CRUD Module.](docs/Project_One_Readme.pdf)
+
 ## Dashboard Functionality
 
 ### All available filters!
@@ -48,7 +61,7 @@ You can chose what to filter via the dropdown  menu provided
 Once you chose what dog data to filter, the charts will adjust accordingly!
 ![Filtered Data and Charts](docs/img/dashboard0.png)
 
-## Development Reflection
+## Development Reflection (CompSci)
 
 ###### How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 
@@ -64,25 +77,25 @@ Computer scientists play a crucial role in problem-solving by developing softwar
 
 ## Tools Used
 
-### MongoDB
+#### MongoDB
 
 [mongodb.com](https://www.mongodb.com)
 
 MongoDB is a NoSQL data that was used in this project. Instead of having to define columns and rows, each record is stored as document containing all of its own properties and values. This helps in creating and interacting with data in a dashboards. 
 
-### Python
+#### Python
 
 [python.org](https://www.python.org)
 
 Python was used as the main programming language for this project
 
-### PyMongo
+#### PyMongo
 
 [pymongo.readthedocs.io](https://pymongo.readthedocs.io/en/stable/)
 
 PyMongo is the recommended driver for using Python to interact with MongoDB.
 
-### Dash Framework
+#### Dash Framework
 
 [plotly.com/dash](https://plotly.com/dash/)
 

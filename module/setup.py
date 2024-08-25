@@ -7,6 +7,6 @@ setup(
     description='A package to interact with a MongoDB database',
     author='Kennedy Uzoho',
     author_email='kennedy.uzoho@snhu.edu',
-    url='xxxxxxxxxxxx',
+    url='https://github.com/kennedy-u/CS-340-Portfolio',
     py_modules=['animal_shelter'],
 )
