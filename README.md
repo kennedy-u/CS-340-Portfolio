@@ -53,12 +53,17 @@ Prerequisites:
 ### Client-Side Authentication
 [Client Side Authentication](docs/5-2-Assignment_Client-Side-Authentication.pdf)
 
-### If you want to take it a step further into data aggregation, click here
+### For Data aggregation methods, click here
 [Data Aggregation](docs/8-1_Data-Aggregation-Pipeline.pdf)
 
 ## Dashboard Functionality
 
 #### All available filters!
+- Water Rescue: filter to display dogs that meet the rquirements for water rescue in the table
+- Mountain Rescue: filter to display dogs that meet the rquirements for mountain rescue in the table
+- Disaster Rescue: filter to display dogs that meet the rquirements for Disaster rescue in the table
+- Reset: filter that resets the database to display all data
+
 You can chose what to filter via the dropdown  menu provided
 ![Filter Data](docs/img/interactive_dash.png)
 
